@@ -1,4 +1,4 @@
-const spans = document.querySelectorAll('.titles');
-spans.forEach((span, index) => {
-    span.style.setProperty('--delay', index);
+const spans = document.querySelectorAll('.pricipal-titles-main');
+spans.forEach((article, index) => {
+    article.style.setProperty('--delay', index);
 });

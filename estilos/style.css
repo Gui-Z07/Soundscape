@@ -205,8 +205,15 @@ html {
   width: 100%; /*230px*/
 }
 
+.sidebar-title-menu{
+  font-size: 0.92rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 5px 0px 5px 0px;
+  letter-spacing: 1px;
+}
+
 .sidebar-buttons-menu {
-  height: 60px;
+  
   background-color: transparent;
   border: 0;
   font-family: inherit;
@@ -237,13 +244,13 @@ html {
 
 #icon-button-aside {
   position: relative;
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: #989c9f;
   cursor: pointer;
 }
 
 .span-button-title {
-  font-size: 1rem;
+  font-size: 0.79rem;
   color: #989c9f;
 }
 .span-button-title:hover{
@@ -281,7 +288,8 @@ html {
   text-align: left;
   margin-top: 12px;
 }
-.titles {
+
+.pricipal-titles-main {
   color: #f5f5f5;
   font-family: neonAbsolute;
   font-size: 2.7rem;
@@ -296,10 +304,6 @@ html {
     0 0 80px #41c9d5, 0 0 90px #41c9d5, 0 0 100px #41c9d5, 0 0 150px #41c9d5;
 }
 
-.album-artist-main-content {
-  margin-top: 20px;
-}
-
 @keyframes animacao-texto {
   0% {
     opacity: 0;
@@ -310,6 +314,59 @@ html {
   100% {
     opacity: 0;
   }
+}
+
+.album-artist-main-content{
+  background-color: #1f1f1f;
+  padding: 10px 10px 10px 10px ;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  width: 95.5%;
+  border-radius: 12px;
+}
+
+.title-albuns-main{
+  font-size: 1.3rem;
+  margin: 0px 0px 8px 6px;
+}
+
+.Albuns-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.Albuns-main a{
+  text-decoration: none;
+}
+
+.Albuns-main img{
+  height: 125px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin: auto 4px auto 4px;
+ 
+}
+
+.Albuns-main img:hover{
+  transform: scale(1.1);
+  transition: transform 0.4s;
+  border-radius: 12px;
+}
+
+.bio-albuns-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 0.89rem;
+  color: white;
+  letter-spacing: 0.50px;
+  gap: 100px;
+  margin-top: 8px;
+  margin-left: 5px;
 }
 
 .aside-rigth {
@@ -343,6 +400,7 @@ html {
 }
 
 .itens-list:hover {
-  padding: 10px;
+  transform: scale(1.2);
+  
   color: #41c9d5;
 }
