@@ -165,7 +165,7 @@ html {
   align-items: flex-start;
 
   width: 180px;
-  max-height: 100%;
+  max-height: 86%;
   padding: 10px 10px 30px 10px;
   margin-top: 10px;
   margin-left: 5px;
@@ -175,7 +175,7 @@ html {
 }
 
 #barraRolagem {
-  max-height: 100%;
+  max-height: 86%;
   overflow-y: hidden;
 }
 
@@ -334,7 +334,7 @@ html {
   background-color: #1f1f1f;
   padding: 10px 10px 10px 10px;
   margin-top: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 75px;
   width: 95.5%;
   border-radius: 12px;
 }
@@ -417,4 +417,28 @@ html {
   transform: scale(1.2);
 
   color: #41c9d5;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  
+  padding: 10px;
+  width: 98.5%;
+
+  background: linear-gradient(to right, #9D3FA9, #7968CB, #6582E1);
+  color: #fff;
+  margin: 0px 10px 5px 10px;
+}
+
+footer h2{
+  font-size: 0.89rem;
+  letter-spacing: 0.89px;
+  margin: 2px auto 5px 5px;
+}
+
+footer p{
+  font-size: 0.89rem;
+  letter-spacing: 0.89px;
+  margin: 2px auto 5px 5px;
 }
