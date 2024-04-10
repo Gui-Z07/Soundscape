@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Spotify</title>
+  </head>
+
+  <link
+    rel="shortcut icon"
+    href="img/favicon-spotify.png"
+    type="image/x-icon"
+  />
+
+  <link rel="stylesheet" href="estilos/stylelogin.css" />
+  <link rel="stylesheet" href="estilos/medialogin.css" />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+
+  <body>
+    <header>
+      <img
+        src="img/189-1897269_spotify-logo-white-png-st-mungos-logo-white-removebg-preview.png"
+        alt=""
+      />
+    </header>
+
+    <main>
+      <div class="main-pag">
+        <h1 class="main-title">Entrar no Spotify</h1>
+
+        <ul class="main-ul">
+          <li class="main-list">
+            <img src="img/GOOGLE.svg" /><a href="#">Continuar com o Google</a>
+          </li>
+
+          <li class="main-list">
+            <img src="img/FACEBOOK.svg" /><a href="#"
+              >Continuar com o Facebook</a
+            >
+          </li>
+
+          <li class="main-list">
+            <img src="img/APPLE.svg" alt="" /><a href="#"
+              >Continuar com o Apple</a
+            >
+          </li>
+
+          <li class="main-list">
+            <a href="#">Continuar com um número de telefone</a>
+          </li>
+        </ul>
+
+        <hr class="linha" />
+
+        <form action="form">
+          <label for="email">E-mail ou nome de usuário</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="E-mail ou nome de usuário"
+          />
+
+          <label for="passwordInput">Senha</label>
+          <input
+            type="password"
+            id="passwordInput"
+            name="password"
+            placeholder="Senha"
+          />
+
+          <label for="Remember">
+            <span class="fas fa-toggle-on"></span> Lembrar de mim
+          </label>
+
+          <input type="submit" value="Entrar" class="input-green" />
+          <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+        </form>
+
+        <hr class="linha" />
+
+        <p class="text-account">
+          Não tem uma conta?
+          <a href="#" class="link-login">Inscrever-se no Spotify</a>
+        </p>
+      </div>
+
+      <footer>
+        Este site é protegido pelo reCAPTCHA e está sujeito à
+        <a href="#"><u class="u">Política de Privacidade</u></a> e aos
+        <a href="#"><u class="u"> Termos de Serviço do Google</u></a
+        >.
+      </footer>
+    </main>
+  </body>
+</html>

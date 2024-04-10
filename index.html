@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,200" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/9068ad09ef.js" crossorigin="anonymous"></script>
@@ -13,7 +14,6 @@
       
 </head>
 <body>
-
     <header class="header-content">
         <div class="menu-header-content">
             <div class="input-search-header">
@@ -44,11 +44,11 @@
             </button>       
             </div>
             <div class="menu-header-content">
-                <span class="header-link-upgrade-plan-singup">
-                    <a href="#" class="link-upgrade-plan-signup">Sign up</a>
+                <span class="header-link-signup">
+                    <a href="login.html" class="link-signup" target="_blank" rel="external">Sign up</a>
                 </span>
-                 <a href="#" class="link-upgrade-plan-login">
-                     <span class="header-link-upgrade-plan-login">
+                 <a href="login.html" class="link-login" target="_blank" rel="external">
+                     <span class="header-link-login">
                          Login
                      </span>
                  </a>
@@ -58,7 +58,7 @@
     
     <main>
         <section class="main-content">
-            <aside class="sidebar-left">
+            <aside class="sidebar-left" id="barraRolagem">
                 logo
                 <nav class="container-nav-menu">
                     <h1 class="sidebar-title-menu">Menu</h1>
@@ -159,14 +159,14 @@
                     <div>
                         <h1 class="title-albuns-main">Albuns of the week</h1>
                     </div>
-                    <div class="fgh">
-                        <section class="Albuns-main">
+                    <div class="albuns-carousel-container">
+                        <section class="albuns-main-carousel">
                             <a href="#"><img src="img/dua lipa.jpg"   alt=""><span class="bio-albuns-main">Training Season <br> Dua Lipa </span></a>
                             <a href="#"><img src="img/alliex.webp"    alt=""><span class="bio-albuns-main">Girl With No Face <br> Allie X </span></a>
                             <a href="#"><img src="img/green day.webp" alt=""><span class="bio-albuns-main">Saviors <br> Green Day</span></a>
                             <a href="#"><img src="img/kanye.webp"     alt=""><span class="bio-albuns-main">Vultures <br> Kanye West </span></a>
                             <a href="#"><img src="img/olivia 2.webp"  alt=""><span class="bio-albuns-main">G.U.T.S<br> Olivia Rodrigo</span></a>
-                            <a href="#"><img src="img/maggie.webp"    alt=""><span class="bio-albuns-main">Training Season <br>  Maggie Lindemann</span></a>
+                            <a href="#"><img src="img/maggie.webp"    alt=""><span class="bio-albuns-main">HeadSplit <br>  Maggie Lindemann</span></a>
                         </section>
                     </div>
                 </div>
@@ -188,6 +188,6 @@
             </aside>
         </section>
     </main>
-    
+    <script src="index.js"></script>
 </body>
 </html>

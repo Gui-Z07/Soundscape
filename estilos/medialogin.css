@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background: #121212;
+  }
+
+  header > img {
+    height: auto;
+    width: 30%;
+    padding: 10px;
+    align-items: left;
+  }
+
+  .main-pag {
+    padding: 20px;
+    max-width: none;
+    width: 100%;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .main-list {
+    width: 100%;
+  }
+
+  input {
+    font-size: 0.9rem;
+    height: 50px;
+    width: 70vw;
+  }
+
+  .input-green {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .forgot-password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 31px;
+    border-radius: 30px;
+    margin-bottom: 7px;
+    margin-left: 60px;
+  }
+
+  footer {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-size: 0.6875rem;
+    height: auto;
+
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+}
