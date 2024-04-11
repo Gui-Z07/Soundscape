@@ -1,3 +1,9 @@
+// Carrega a biblioteca jQuery
+import $ from "https://code.jquery.com/jquery-3.6.0.min.js";
+
+// Carrega a biblioteca Slick Carousel
+import "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js";
+
 const spans = document.querySelectorAll(".pricipal-titles-main");
 spans.forEach((article, index) => {
   article.style.setProperty("--delay", index);
@@ -20,3 +26,6 @@ window.addEventListener("load", ajustarScroll);
 
 // Aqui um resize, essa função ajuda no ajuste sempre que o tamanho da janela for alterado (bom para mq)
 window.addEventListener("resize", ajustarScroll);
+
+
+
