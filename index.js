@@ -28,4 +28,3 @@ window.addEventListener("load", ajustarScroll);
 window.addEventListener("resize", ajustarScroll);
 
 
-
