@@ -165,7 +165,7 @@ html {
   align-items: flex-start;
 
   width: 180px;
-  max-height: 86%;
+  max-height: 84%;
   padding: 10px 10px 30px 10px;
   margin-top: 10px;
   margin-left: 5px;
@@ -175,7 +175,7 @@ html {
 }
 
 #barraRolagem {
-  max-height: 86%;
+  max-height: 84%;
   overflow-y: hidden;
 }
 
@@ -334,7 +334,7 @@ html {
   background-color: #1f1f1f;
   padding: 10px 10px 10px 10px;
   margin-top: 40px;
-  width: 95.5%;
+  width: 100%;
   border-radius: 12px
 }
 
@@ -403,7 +403,7 @@ html {
   background-color: #1f1f1f;
   padding: 10px 10px 10px 10px;
   margin-top: 20px;
-  width: 95.5%;
+  width: 100%;
   border-radius: 12px;
   
 }
