@@ -111,12 +111,22 @@ html {
   align-items: center;
 
   background-color: #41c9d5;
+  background-image: linear-gradient(
+    -60deg,
+    transparent 0%, transparent 40%,
+    #ffffff44 40%, #ffffff44 60%,
+    transparent 60%, transparent 100%
+  );
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position-x: 150%;
+
+  padding: 0.5rem 1rem;
   width: 170px;
   height: 50px;
 
   border: 1px solid transparent;
-  border-radius: 8px;
-
+  border-radius: 0.25rem;
   vertical-align: middle;
 
   color: #f5f5f5;
@@ -125,6 +135,9 @@ html {
 
 .header-link-login:hover {
   transform: scale(1.05);
+  background-position-x: -150%;
+  transition:  
+  background-position-x 1000ms;
 }
 
 .link-signup {
@@ -180,7 +193,7 @@ html {
 }
 
 #barraRolagem:hover {
-  overflow-y: auto; /* Mostra a barra de rolagem quando o mouse passa sobre o aside */
+  overflow-y: auto; 
 }
 
 #barraRolagem::-webkit-scrollbar {
@@ -221,8 +234,9 @@ html {
 }
 
 .sidebar-title-menu {
+  color: #41c9d5;
   font-size: 0.92rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: inherit;
   margin: 5px 0px 5px 0px;
   letter-spacing: 1px;
 }
@@ -346,6 +360,8 @@ html {
 .title-container h1 {
   font-size: 1.3rem;
   margin: 0px 0px 8px 6px;
+  color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .link-view-all a {
@@ -377,6 +393,7 @@ html {
   border-radius: 12px;
   object-fit: cover;
   margin: auto 4px auto 4px;
+  
 }
 
 .albuns-main-carousel img:hover {

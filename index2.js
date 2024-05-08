@@ -33,6 +33,6 @@ progress.onchange = function(){
     controlIcon.classList.add("fa-pause");
     controlIcon.classList.remove("fa-play");
 }
-
+//
 
   
